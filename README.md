@@ -12,7 +12,7 @@ Deciding whether an extracellular event is a spike or an artifact is one of the 
 
 This tool exists to give researchers a principled alternative: a way to decide, for each candidate, whether it is or is not an action potential, grounded in a physical truth about what an action potential is, rather than in an arbitrary amplitude cutoff.
 
-<img src="assets/ex-smooth_dynamics.png" alt="Word Cloud Visualization" width="500">
+<img src="assets/ex-smooth-dynamics.png" alt="Word Cloud Visualization" width="500">
 
 ## The problem
 
