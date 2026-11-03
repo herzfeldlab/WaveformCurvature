@@ -1,4 +1,4 @@
-<img src="assets/ex-removed-kept.png" alt="Word Cloud Visualization" width="100" align="center">
+<img src="assets/ex-removed-kept.png" alt="Word Cloud Visualization" width="300">
 
 # Waveform Curvature (v1)
 
