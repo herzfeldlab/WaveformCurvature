@@ -1,3 +1,5 @@
+![Word Cloud Visualization](assets/ex-removed-kept.png)
+
 # Waveform Curvature (v1)
 
 Code for Jones & Herzfeld (2026).
