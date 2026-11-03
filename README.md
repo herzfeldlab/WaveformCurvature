@@ -32,7 +32,8 @@ curvature = 1 - mean(turn_angle) / pi
 
 At each interior point of the trajectory, the turn angle is the angle between the incoming and outgoing step vectors, computed with a dot product. A straight run has a turn angle near 0 (curvature near 1). A trajectory that keeps reversing on itself has a turn angle near pi (curvature near 0). Real spikes sit in a consistent, separable range because their dynamics are consistent; noise does not.
 
-![Word Cloud Visualization](assets/wc-viz.png)
+<img src="assets/wc-viz.png" alt="Word Cloud Visualization" width="500">
+
 
 ## Why this is a white-box solution
 
