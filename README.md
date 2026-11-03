@@ -12,6 +12,8 @@ Deciding whether an extracellular event is a spike or an artifact is one of the 
 
 This tool exists to give researchers a principled alternative: a way to decide, for each candidate, whether it is or is not an action potential, grounded in a physical truth about what an action potential is, rather than in an arbitrary amplitude cutoff.
 
+<img src="assets/ex-smooth_dynamics.png" alt="Word Cloud Visualization" width="500">
+
 ## The problem
 
 Spike detection forces a tradeoff. Set your threshold high and you get clean, obviously-spike-shaped candidates, but you miss real spikes that happen to be smaller or partially overlapping. Set it low and you catch those spikes, but you flood your sorter with noise crossings. Most pipelines resolve this by picking a threshold that's higher than it should be, and quietly accepting the missed spikes as a cost of doing business.
