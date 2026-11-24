@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: If you use this software, please cite it as below.
-title: Waveform Curvature
+title: Exploiting the smooth temporal dynamics of action potentials for improved extracellular spike sorting
 authors:
   - given-names: Max Otto
     family-names: Jones
