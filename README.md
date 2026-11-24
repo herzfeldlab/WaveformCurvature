@@ -2,9 +2,9 @@
 
 # Waveform Curvature (v1)
 
-Code for Jones & Herzfeld (2026).
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24504113.svg)](https://doi.org/10.5281/zenodo.24504113)
 
-Principled curation of singular spikes in extracellular recordings.
+Code for Jones & Herzfeld (2026).
 
 ## Purpose
 
