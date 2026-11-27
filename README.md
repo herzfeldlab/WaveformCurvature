@@ -1,4 +1,4 @@
-<img src="assets/ex-removed-kept.png" alt="Word Cloud Visualization" width="300">
+<img src="assets/curvature_gradient_stim_marked_sim.png" alt="Word Cloud Visualization">
 
 # Waveform Curvature (v1)
 
