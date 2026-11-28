@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24504113.svg)](https://doi.org/10.5281/zenodo.24504113)
-<a href="./LICENSE"><img src="https://shields.io" alt="License: MIT"></a>
+[![License: MIT](https://badgen.net)](./LICENSE)
 
 <img src="assets/curvature_gradient_stim_marked_sim.png" alt="Word Cloud Visualization">
 
