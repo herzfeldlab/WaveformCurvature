@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/license-MIT-yellow)](./LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/herzfeldlab/WaveformCurvature?style=flat)](https://github.com/herzfeldlab/WaveformCurvature/stargazers)
 
-# 🪃 Waveform Curvature: detecting spikes via their continuous dynamics 🪃
+# Waveform Curvature: detecting spikes via their continuous dynamics
 <img alt="Waveform Curvature" src="./assets/wc_logo.svg" width="40%" title="Waveform Curvature" align="right" vspace="20">
 
 Deciding whether an extracellular event is a spike or an artifact is a fundamental step in spike sorting pipelines. This tool offers a principled alternative to arbitrary amplitude cutoffs by evaluating the physical trajectory of action potentials. Code for Jones & Herzfeld (2026).
