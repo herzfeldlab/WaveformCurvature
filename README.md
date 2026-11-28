@@ -24,11 +24,13 @@ Deciding whether an extracellular event is a spike or an artifact is a fundament
 
 ## Problem & Idea
 
-Spike detection forces a tradeoff between missing small/overlapping spikes (high threshold) and flooding the sorter with noise (low threshold). Waveform curvature resolves this by combining a low detection threshold with a geometric phase-space curation.
+Spike detection forces a tradeoff between missing small/overlapping spikes (high threshold) and flooding the sorter with noise (low threshold). Waveform curvature resolves this by exploiting the continuous and predictable nature of action potentials.
 
-Action potentials exhibit smooth temporal dynamics (fast depolarization and repolarization), visible as a coherent phase-space trajectory:
+Action potentials exhibit smooth temporal dynamics (fast depolarization and repolarization), visible when embedding the trace along successive time-delays:
 
-\[\text{curvature} = 1 - \frac{\text{mean}(\text{turn angle})}{\pi}\]
+$$
+\text{curvature} = 1 - \frac{\text{mean}(\text{turn angle})}{\pi}
+$$
 
 Straight runs yield curvature near `1`, while chaotic noise yields curvature near `0`.
 
