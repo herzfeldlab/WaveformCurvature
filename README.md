@@ -9,10 +9,6 @@ Deciding whether an extracellular event is a spike or an artifact is a fundament
 
 Please star the project to support us, using the top-right "⭐ Star" button.
 
-### Purpose
-
-Deciding whether an extracellular event is a spike or an artifact is a fundamental step in spike sorting pipelines. This tool offers a principled alternative to arbitrary amplitude cutoffs by evaluating the physical trajectory of action potentials.
-
 <p align="center">
   <img src="./assets/ex-smooth-dynamics.png" alt="Smooth Temporal Dynamics" width="550">
 </p>
