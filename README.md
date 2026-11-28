@@ -1,6 +1,6 @@
 <div align="center">
 
-# Waveform Curvature: detect continuous extracellular waveforms
+# Waveform Curvature: detect continuous extracellular spikes
 
 **Code for Jones & Herzfeld (2026).**
 
