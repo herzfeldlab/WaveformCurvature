@@ -1,8 +1,8 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24504113.svg)](https://doi.org/10.5281/zenodo.24504113)
+
 <img src="assets/curvature_gradient_stim_marked_sim.png" alt="Word Cloud Visualization">
 
 # Waveform Curvature (v1)
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24504113.svg)](https://doi.org/10.5281/zenodo.24504113)
 
 Code for Jones & Herzfeld (2026).
 
@@ -14,13 +14,13 @@ This tool exists to give researchers a principled alternative: a way to decide, 
 
 <img src="assets/ex-smooth-dynamics.png" alt="Word Cloud Visualization" width="500">
 
-## The problem
+## Problem
 
 Spike detection forces a tradeoff. Set your threshold high and you get clean, obviously-spike-shaped candidates, but you miss real spikes that happen to be smaller or partially overlapping. Set it low and you catch those spikes, but you flood your sorter with noise crossings. Most pipelines resolve this by picking a threshold that's higher than it should be, and quietly accepting the missed spikes as a cost of doing business.
 
 Waveform curvature is a way out of that tradeoff. It lets you set a low detection threshold on purpose, catching everything that might be a spike, and then curate that candidate pool with a second, independent and principled criterion.
 
-## The idea
+## Idea
 
 An extracellular action potential has smooth, stereotyped temporal dynamics: fast depolarization, fast repolarization, a coherent trajectory from baseline through trough and back. Most artifacts do not possess this trait.
 
@@ -35,14 +35,14 @@ At each interior point of the trajectory, the turn angle is the angle between th
 <img src="assets/wc-viz.png" alt="Word Cloud Visualization" width="500">
 
 
-## Why this is a white-box solution
+## Clear-box approach
 
 There's no model to train and no black box to trust. The score is a closed-form geometric quantity computed directly from the voltage trace, so a threshold on it is a criterion you can state, defend, and report: "an event was classified as a spike if it scored greater than __% of the underlying noise distribution."
 
 A first-principles approach comes with several benefits: it does not require a-priori specification of amplitude or unit template, and is simple and lightweight to compute. Thus, it drops into any pipeline as a pre-sorting filter, independent of whatever sorter you use downstream.
 
 
-## How the threshold is calibrated
+## Noise-derived thresholding
 
 The threshold is calibrated directly from your own recording's noise:
 
