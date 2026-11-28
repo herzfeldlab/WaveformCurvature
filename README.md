@@ -8,10 +8,6 @@ Deciding whether an extracellular event is a spike or an artifact is a fundament
 
 Please star the project to support us, using the top-right "⭐ Star" button.
 
-<br clear="right" />
-
-<img align="center" src="./assets/curvature_gradient_stim_marked_sim.png" alt="Waveform Curvature Overview" width="100%">
-
 ### Purpose
 
 Deciding whether an extracellular event is a spike or an artifact is a fundamental step in spike sorting pipelines. This tool offers a principled alternative to arbitrary amplitude cutoffs by evaluating the physical trajectory of action potentials.
