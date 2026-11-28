@@ -1,6 +1,6 @@
 <div align="center">
 
-# Waveform Curvature (v1)
+# Waveform Curvature: Automated pre-processing of singular spikes in extracellular recordings
 
 **Code for Jones & Herzfeld (2026).**
 
